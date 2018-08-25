@@ -14,7 +14,7 @@ Writing a conformant iterator is difficult. An InputIterator is required to:
 9)  provide iterator_category
 10) be dereferencible via * AND ->
 11) be pre AND post incrementible
-12) be comparible with == and !=
+12) be comparable with == and !=
 * the operations have subtle semantics that have to be fulfilled.
 
 Additionally, there are a few implied requirements:
