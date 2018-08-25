@@ -1,0 +1,17 @@
+sudo: true
+language: cpp
+compiler: gcc
+dist: trusty
+
+addons: 
+  apt: 
+    packages: libboost-all-dev
+
+before_install:
+  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+  - sudo apt-get update -qq
+
+install:
+  - sudo apt-get install -qq g++-7
+  
+script: g++-6 -w -std=c++17 iter_experiments.cpp
