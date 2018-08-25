@@ -15,4 +15,4 @@ install:
   - sudo apt-get install -qq g++-7
 
 # TODO: Write a proper makefile, clean this mess up.
-script: g++-7 -w -std=c++17 iter_experiments.cpp
+script: g++-7 -w -std=c++17 fixup_iterators.cpp
