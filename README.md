@@ -2,6 +2,8 @@
 
 Performs fixup of the iterator requirements for given iterator type.
 
+[![Build Status](https://travis-ci.org/lennoxho/iterator_fixup.svg?branch=master)](https://travis-ci.org/lennoxho/iterator_fixup)
+
 Writing a conformant iterator is difficult. An InputIterator is required to:
 1)  satisfy CopyConstructible
 2)  satisfy CopyAssignable
